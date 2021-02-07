@@ -151,8 +151,6 @@ jobs:
       run: |
         cd openwrt/bin/targets/*/*
         rm -rf packages
-        mv -f openwrt-bcm53xx-generic-phicomm-k3-squashfs-sysupgrade.bin openwrt-bcm53xx-generic-phicomm-k3-squashfs-sysupgrade${{ env.FILE_DATE }}.bin
-        mv -f openwrt-bcm53xx-generic-phicomm-k3-squashfs-factory.img openwrt-bcm53xx-generic-phicomm-k3-squashfsfactory${{ env.FILE_DATE }}.img
         echo "FIRMWARE=$PWD" >> $GITHUB_ENV
         echo "::set-output name=status::success"
 
