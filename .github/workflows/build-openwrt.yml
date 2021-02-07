@@ -151,6 +151,7 @@ jobs:
       run: |
         cd openwrt/bin/targets/*/*
         rm -rf packages
+        mv openwrt-bcm53xx-generic-phicomm-k3-squashfs.trx openwrt-bcm53xx-generic-phicomm-k3-squashfs${{ env.FILE_DATE }}.trx
         echo "FIRMWARE=$PWD" >> $GITHUB_ENV
         echo "::set-output name=status::success"
 
