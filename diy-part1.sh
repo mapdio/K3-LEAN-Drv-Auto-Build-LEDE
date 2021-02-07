@@ -22,6 +22,9 @@ sed -i '$a src-git kenzok8 https://github.com/kenzok8/openwrt-packages' feeds.co
 sed -i '$a src-git small  https://github.com/kenzok8/small' feeds.conf.default
 sed -i '$a src-git OpenAppFilter https://github.com/OpenWrt-Actions/OpenAppFilter' feeds.conf.default
 
+# 仅编译K3固件
+sed -i 's|^TARGET_|# TARGET_|g; s|# TARGET_DEVICES += phicomm-k3|TARGET_DEVICES += phicomm-k3|' target/linux/bcm53xx/image/Makefile
+
 # 删除重复插件
 rm -rf package/lean/ipt2socks
 rm -rf package/lean/dns2socks
