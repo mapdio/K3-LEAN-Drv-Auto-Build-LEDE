@@ -1,0 +1,33 @@
+Package: appfilter
+Version: 3.0-1
+Depends: libc, libubox-lua
+Section: Derry Apps
+Architecture: arm_cortex-a9
+Installed-Size: 6962
+Filename: appfilter_3.0-1_arm_cortex-a9.ipk
+Size: 7705
+SHA256sum: ae1993e3eda80093be41cfbed97d3dd1b6797374ba8b532e7196c7e2240b05f7
+Description:  open appfilter app
+
+Package: luci-app-oaf
+Version: 3.0-1
+Depends: libc, kmod-oaf, appfilter
+Section: luci
+Architecture: all
+Installed-Size: 3448
+Filename: luci-app-oaf_3.0-1_all.ipk
+Size: 4252
+SHA256sum: aba5015cdbb71b2cf18aa2c75be5bb85d4837f1c14f9137a82f45a18b40ae27b
+Description:  Open App Filter Module
+
+Package: luci-i18n-oaf-zh-cn
+Version: 3.0-1
+Depends: libc, luci-app-oaf
+Section: luci
+Architecture: all
+Installed-Size: 804
+Filename: luci-i18n-oaf-zh-cn_3.0-1_all.ipk
+Size: 1619
+SHA256sum: 1d64ddf7136230e888429d16fbba95ddc8f47283c17f41581fdf6033c4bf9e9e
+Description:  Translation for luci-app-oaf - 简体中文 (Simplified Chinese)
+

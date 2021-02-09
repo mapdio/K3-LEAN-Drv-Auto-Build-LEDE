@@ -1,0 +1,78 @@
+Package: luci-app-adguardhome
+Version: 15
+Depends: libc, wget
+Section: luci
+Architecture: all
+Installed-Size: 90757
+Filename: luci-app-adguardhome_15_all.ipk
+Size: 91870
+SHA256sum: 3810fb71c02592353c61e3aae41fcec30885aef499184dfb103ec31c17de7a6c
+Description:  LuCI support for adguardhome
+
+Package: luci-app-smartdns
+Version: 1-3
+Depends: libc, smartdns
+Section: luci
+Architecture: all
+Installed-Size: 5388
+Filename: luci-app-smartdns_1-3_all.ipk
+Size: 6121
+SHA256sum: a9842c7af7b80bf7c73555513a1b3e12c75fa0e26ed3c3cfcef9bbc610be4b90
+Description:  Luci for smartdns server
+
+Package: luci-app-ssr-plus
+Version: 183-7
+Depends: libc, shadowsocksr-libev-alt, ipset, ip-full, iptables-mod-tproxy, dnsmasq-full, coreutils, coreutils-base64, pdnsd-alt, wget-ssl, lua, libuci-lua, microsocks, dns2socks, shadowsocksr-libev-ssr-local, tcping, resolveip, xray-core, trojan, ipt2socks, redsocks2
+Section: luci
+Architecture: all
+Installed-Size: 186503
+Filename: luci-app-ssr-plus_183-7_all.ipk
+Size: 186640
+SHA256sum: 732ea2a3bf2a3051be4f74e74e6c11f738266dc84e8591973195d13c77ab2ea0
+Description:  SS/SSR/V2Ray/Trojan/NaiveProxy/Socks5/Tun LuCI interface
+
+Package: luci-i18n-smartdns-zh-cn
+Version: 1-3
+Depends: libc, luci-app-smartdns
+Section: luci
+Architecture: all
+Installed-Size: 3195
+Filename: luci-i18n-smartdns-zh-cn_1-3_all.ipk
+Size: 3986
+SHA256sum: 87c76022548fb63f321f563ab665ba7ac4e70b8c03340d4e193c93baf83d9b5a
+Description:  Translation for luci-app-smartdns - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-ssr-plus-zh-cn
+Version: 183-7
+Depends: libc, luci-app-ssr-plus
+Section: luci
+Architecture: all
+Installed-Size: 6403
+Filename: luci-i18n-ssr-plus-zh-cn_183-7_all.ipk
+Size: 7240
+SHA256sum: fe5054d1c98db6197199adae80ec3ca41689cbb2c8ea7895df1a7ab35deb7764
+Description:  Translation for luci-app-ssr-plus - 简体中文 (Simplified Chinese)
+
+Package: microsocks
+Version: 1.0.2-1
+Depends: libc
+License: MIT
+Section: net
+Architecture: arm_cortex-a9
+Installed-Size: 5174
+Filename: microsocks_1.0.2-1_arm_cortex-a9.ipk
+Size: 5875
+SHA256sum: 1155bab04f0f128dba3a136226ecb1e104ef2b9fe4c40c067486ed723841427c
+Description:  microsocks is a Tiny Proxy in C.
+
+Package: tcping
+Version: 0.3-1
+Depends: libc
+Section: net
+Architecture: arm_cortex-a9
+Installed-Size: 3494
+Filename: tcping_0.3-1_arm_cortex-a9.ipk
+Size: 4162
+SHA256sum: af2203dc41a8253010f44ca977106399db7b5a19c26d662e1044bf2f66d2be99
+Description:  tcping measures the latency of a tcp-connection
+

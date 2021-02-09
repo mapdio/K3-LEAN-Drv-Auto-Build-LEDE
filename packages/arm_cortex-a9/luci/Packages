@@ -1,0 +1,255 @@
+Package: luci-app-aria2
+Version: 1.0.1-3
+Depends: libc, aria2, ariang
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 4315
+Filename: luci-app-aria2_1.0.1-3_all.ipk
+Size: 5111
+SHA256sum: a66c84b627b4ebe446a17f548ba762beccc0b164ebd967f9d322760503f2f1d4
+Description:  LuCI Support for Aria2
+
+Package: luci-app-firewall
+Version: git-21.035.34289-13f96d1-1
+Depends: libc, firewall
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 10815
+Filename: luci-app-firewall_git-21.035.34289-13f96d1-1_all.ipk
+Size: 11557
+SHA256sum: 20db60351d56219a8a328e156152c7dfe1fb0abb9d111a1a30ab54e8d6494a76
+Description:  Firewall and Portforwarding application
+
+Package: luci-app-hd-idle
+Version: git-21.035.34289-13f96d1-1
+Depends: libc, hd-idle
+Section: luci
+Architecture: all
+Installed-Size: 1048
+Filename: luci-app-hd-idle_git-21.035.34289-13f96d1-1_all.ipk
+Size: 1855
+SHA256sum: 9a7c2d98d2476c492c46903d398d8389ae22018062a45949cc8c27e692d49b54
+Description:  Hard Disk Idle Spin-Down module
+
+Package: luci-app-minidlna
+Version: git-21.035.34289-13f96d1-1
+Depends: libc, minidlna
+Section: luci
+Architecture: all
+Installed-Size: 3223
+Filename: luci-app-minidlna_git-21.035.34289-13f96d1-1_all.ipk
+Size: 4023
+SHA256sum: bf9685f3e8b5820e9019f0b20729c1319d6e6daea34d17b54b99ce2afe29a080
+Description:  LuCI Support for miniDLNA
+
+Package: luci-app-upnp
+Version: git-21.035.34289-13f96d1-1
+Depends: libc, miniupnpd
+Section: luci
+Architecture: all
+Installed-Size: 3606
+Filename: luci-app-upnp_git-21.035.34289-13f96d1-1_all.ipk
+Size: 4379
+SHA256sum: 5e8eebad7a4958169bc92e424b5179b306add8dac5909916fa76e1eacd0bcfa9
+Description:  Universal Plug & Play configuration module
+
+Package: luci-base
+Version: git-21.035.34289-13f96d1-1
+Depends: libc, lua, libuci-lua, luci-lib-nixio, luci-lib-ip, rpcd, libubus-lua, luci-lib-jsonc
+License: Apache-2.0
+Section: luci
+Architecture: arm_cortex-a9
+Installed-Size: 123308
+Filename: luci-base_git-21.035.34289-13f96d1-1_arm_cortex-a9.ipk
+Size: 124305
+SHA256sum: 36642d9a5252f0398cc056ebe26b2643ea74304577031ff1eb2a78a7c5069081
+Description:  LuCI core libraries
+
+Package: luci-compat
+Version: git-21.035.34289-13f96d1-1
+Depends: libc, luci-base
+Section: luci
+Architecture: all
+Installed-Size: 105
+Filename: luci-compat_git-21.035.34289-13f96d1-1_all.ipk
+Size: 785
+SHA256sum: 9c639dcc1461bedcdcc3f902012c8d9c0b2086078f217cb5a61a708cfac77a95
+Description:  LuCI compatibility libraries
+
+Package: luci-i18n-aria2-zh-cn
+Version: 1.0.1-3
+Depends: libc, luci-app-aria2
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 2156
+Filename: luci-i18n-aria2-zh-cn_1.0.1-3_all.ipk
+Size: 3039
+SHA256sum: 5c6b912d314e9e8130d897e57ce14259a8fe11ba80743c4f1d9c0de775ab8049
+Description:  Translation for luci-app-aria2 - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-base-zh-cn
+Version: git-21.035.34289-13f96d1-1
+Depends: libc, luci-base
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 29395
+Filename: luci-i18n-base-zh-cn_git-21.035.34289-13f96d1-1_all.ipk
+Size: 30271
+SHA256sum: 83e25e53e997b1e033e33f7ac87f9ac7dd963e0f3df8d9435bee1b280f876bde
+Description:  Translation for luci-base - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-firewall-zh-cn
+Version: git-21.035.34289-13f96d1-1
+Depends: libc, luci-app-firewall
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 4646
+Filename: luci-i18n-firewall-zh-cn_git-21.035.34289-13f96d1-1_all.ipk
+Size: 5476
+SHA256sum: 4d262d6d1e5c774a45a0fd92d9cbca13c0d734916e5f450935b0b3a0e9e46dd0
+Description:  Translation for luci-app-firewall - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-hd-idle-zh-cn
+Version: git-21.035.34289-13f96d1-1
+Depends: libc, luci-app-hd-idle
+Section: luci
+Architecture: all
+Installed-Size: 653
+Filename: luci-i18n-hd-idle-zh-cn_git-21.035.34289-13f96d1-1_all.ipk
+Size: 1478
+SHA256sum: 2c3f781d8797cc5355320e4c601832acb4c92b1d6598f8ca31516437d3da715c
+Description:  Translation for luci-app-hd-idle - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-minidlna-zh-cn
+Version: git-21.035.34289-13f96d1-1
+Depends: libc, luci-app-minidlna
+Section: luci
+Architecture: all
+Installed-Size: 1840
+Filename: luci-i18n-minidlna-zh-cn_git-21.035.34289-13f96d1-1_all.ipk
+Size: 2684
+SHA256sum: 58443b7d387442e1e0ec3329fc45e433ab33d875e727966a140c5d862ada2760
+Description:  Translation for luci-app-minidlna - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-upnp-zh-cn
+Version: git-21.035.34289-13f96d1-1
+Depends: libc, luci-app-upnp
+Section: luci
+Architecture: all
+Installed-Size: 1611
+Filename: luci-i18n-upnp-zh-cn_git-21.035.34289-13f96d1-1_all.ipk
+Size: 2457
+SHA256sum: 23e6f324c405ab274de08632a6c328aced5f63d708cd383e33f661b6ca84aa5a
+Description:  Translation for luci-app-upnp - 简体中文 (Simplified Chinese)
+
+Package: luci-lib-ip
+Version: git-21.035.34289-13f96d1-1
+Depends: libc, liblua5.1.5, libnl-tiny
+License: Apache-2.0
+Section: luci
+Architecture: arm_cortex-a9
+Installed-Size: 8926
+Filename: luci-lib-ip_git-21.035.34289-13f96d1-1_arm_cortex-a9.ipk
+Size: 9685
+SHA256sum: cf593060d25fc57319f6acc40e2fdb1bb8f6c209f83f702d81cb8fd7e9444afd
+Description:  Lua library for IP calculation and routing information
+
+Package: luci-lib-jsonc
+Version: git-21.035.34289-13f96d1-1
+Depends: libc, liblua5.1.5, libjson-c4
+Section: luci
+Architecture: arm_cortex-a9
+Installed-Size: 3451
+Filename: luci-lib-jsonc_git-21.035.34289-13f96d1-1_arm_cortex-a9.ipk
+Size: 4148
+SHA256sum: 4f09c4ed7f0422b62706b3d157458e24cf5113b971931385bbbfec2a6dff8da7
+Description:  Lua binding for JSON-C
+
+Package: luci-lib-nixio
+Version: git-21.035.34289-13f96d1-1
+Depends: libc, liblua5.1.5
+License: Apache-2.0
+Section: luci
+Architecture: arm_cortex-a9
+Installed-Size: 29172
+Filename: luci-lib-nixio_git-21.035.34289-13f96d1-1_arm_cortex-a9.ipk
+Size: 29660
+SHA256sum: bf9c1647f20160653cf4983210491d9177b880957941472861d70a24998b7c3f
+Description:  NIXIO POSIX library
+
+Package: luci-mod-admin-full
+Version: git-21.035.34289-13f96d1-1
+Depends: libc, luci-base
+License: Apache-2.0
+Section: luci
+Architecture: arm_cortex-a9
+Installed-Size: 80760
+Filename: luci-mod-admin-full_git-21.035.34289-13f96d1-1_arm_cortex-a9.ipk
+Size: 81672
+SHA256sum: 979b0a9527d3ebefb6721f8573a87972f60684a0cd33036c611814a9560d1918
+Description:  LuCI Administration - full-featured for full control
+
+Package: luci-proto-ppp
+Version: git-21.035.34289-13f96d1-1
+Depends: libc
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 3106
+Filename: luci-proto-ppp_git-21.035.34289-13f96d1-1_all.ipk
+Size: 3802
+SHA256sum: 73fb0b39e3c57c8994596e8240bd50db4929cfedea03501870d360717776a11b
+Description:  Support for PPP/PPPoE/PPPoA/PPtP
+
+Package: luci-ssl-openssl
+Version: git-21.035.34289-13f96d1-1
+Depends: libc, luci, libustream-openssl20200215, openssl-util
+Section: luci
+Architecture: all
+Installed-Size: 105
+Filename: luci-ssl-openssl_git-21.035.34289-13f96d1-1_all.ipk
+Size: 910
+SHA256sum: 6fca8648790d277d3affa554bd1989b8690e7aafede0d1094c8d79334b8acdd4
+Description:  LuCI with OpenSSL as the SSL backend (libustream-openssl). OpenSSL cmd tools (openssl-util) are used by uhttpd for SSL key generation instead of the default px5g. (If px5g is installed, uhttpd will prefer that.)
+
+Package: luci-theme-bootstrap
+Version: git-21.035.34289-13f96d1-1
+Depends: libc
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 13675
+Filename: luci-theme-bootstrap_git-21.035.34289-13f96d1-1_all.ipk
+Size: 14443
+SHA256sum: ec02eb5180051cf8fdfa32b6c5da7506e426879820f765f398cfc8f7fc5fdf43
+Description:  Bootstrap Theme (default)
+
+Package: luci
+Version: git-21.035.34289-13f96d1-1
+Depends: libc, uhttpd, uhttpd-mod-ubus, luci-mod-admin-full, luci-theme-bootstrap, luci-app-firewall, luci-proto-ppp, libiwinfo-lua, rpcd-mod-rrdns
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 105
+Filename: luci_git-21.035.34289-13f96d1-1_all.ipk
+Size: 902
+SHA256sum: 588973b43fc2aefb03d8cdddab0ad72a6558714bf174fd2caba23215b0daed6f
+Description:  Standard OpenWrt set including full admin with ppp support and the default Bootstrap theme
+
+Package: rpcd-mod-rrdns
+Version: 20170710
+Depends: libc, rpcd, libubox20191228, libubus20191227
+License: Apache-2.0
+Section: libs
+Architecture: arm_cortex-a9
+Installed-Size: 3444
+Filename: rpcd-mod-rrdns_20170710_arm_cortex-a9.ipk
+Size: 4251
+SHA256sum: 4ed8f8075973275cf286c843c4d80651aaab1cd3914b315e8dc7a08d15591177
+Description:  Provides rapid mass reverse DNS lookup functionality.
+

@@ -1,0 +1,728 @@
+Package: aria2
+Version: 1.35.0-3
+Depends: libc, zlib, libstdcpp6, libopenssl1.1
+Source: feeds/packages/net/aria2
+SourceName: aria2
+License: GPLv2
+LicenseFiles: COPYING
+Section: net
+Require-User: aria2=6800:aria2=6800
+CPE-ID: cpe:/a:tatsuhiro_tsujikawa:aria2
+Maintainer: Imre Kaloz <kaloz@openwrt.org>, Hsing-Wang Liao <kuoruan@gmail.com>
+Architecture: arm_cortex-a9
+Installed-Size: 547228
+Filename: aria2_1.35.0-3_arm_cortex-a9.ipk
+Size: 547176
+SHA256sum: e2cc719d2e22e5805add27efdd42fc4e64bd7547f9fc591ca7e880043007f18d
+Description:  aria2 is a lightweight multi-protocol & multi-source command-line download
+ utility
+
+Package: ariang
+Version: 1.1.6-1
+Depends: libc, aria2, uhttpd
+Source: feeds/packages/net/ariang
+SourceName: ariang
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+Maintainer: Ansuel Smith <ansuelsmth@gmail.com>
+Architecture: all
+Installed-Size: 989051
+Filename: ariang_1.1.6-1_all.ipk
+Size: 989546
+SHA256sum: 1f97aae99f9d91c4e9c238f8d77ed985fbad3f2077170e30ac88cbf5f6e2a670
+Description:  AriaNg is a web frontend making aria2 easier to use. AriaNg is written in pure html & javascript, thus it does not need any compilers or runtime environment.
+
+Package: attr
+Version: 2.4.48-2
+Depends: libc, libattr
+Source: feeds/packages/utils/attr
+SourceName: attr
+License: GPL-2.0-or-later
+LicenseFiles: doc/COPYING
+Section: utils
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: arm_cortex-a9
+Installed-Size: 11433
+Filename: attr_2.4.48-2_arm_cortex-a9.ipk
+Size: 12244
+SHA256sum: ce1d713508a41f0ea6ad11b5c864252faeb63cf248be85494e4f19330f7bc9aa
+Description:  Extended attributes support
+ This package provides xattr manipulation utilities
+ - attr
+ - getfattr
+ - setfattr
+
+Package: avahi-dbus-daemon
+Version: 0.8-6
+Depends: libc, libavahi-dbus-support, libexpat, librt, libdaemon
+Provides: avahi-daemon
+Source: feeds/packages/libs/avahi
+SourceName: avahi-dbus-daemon
+License: LGPL-2.1-or-later
+LicenseFiles: LICENSE
+Section: net
+CPE-ID: cpe:/a:avahi:avahi
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: arm_cortex-a9
+Installed-Size: 39619
+Filename: avahi-dbus-daemon_0.8-6_arm_cortex-a9.ipk
+Size: 40534
+SHA256sum: 05d56a840235787ddf088f2e072ccf2d57b574a40117cf895dd07676ca319408
+Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
+ implementation (library). It facilitates
+ service discovery on a local network -- this means that
+ you can plug your laptop or computer into a network and
+ instantly be able to view other people who you can chat with,
+ find printers to print to or find files being shared.
+ This kind of technology is already found in MacOS X
+ (branded 'Rendezvous', 'Bonjour' and sometimes 'ZeroConf')
+ and is very convenient.
+ .
+ This package contains an mDNS/DNS-SD daemon.
+
+Package: boost-date_time
+Version: 1.73.0-1
+Depends: libc, libstdcpp6, libpthread, librt
+Source: feeds/packages/libs/boost
+SourceName: boost-date_time
+License: BSL-1.0
+LicenseFiles: LICENSE_1_0.txt
+Section: libs
+CPE-ID: cpe:/a:boost:boost
+Maintainer: Carlos M. Ferreira <carlosmf.pt@gmail.com>
+Architecture: arm_cortex-a9
+Installed-Size: 943
+Filename: boost-date_time_1.73.0-1_arm_cortex-a9.ipk
+Size: 1751
+SHA256sum: bf6ac98b764c3ea2399a7c843ed970eaf3e842e55b1e57195e5e1fd3ead39df8
+Description:  This package contains the Boost date_time library.
+
+Package: boost-program_options
+Version: 1.73.0-1
+Depends: libc, libstdcpp6, libpthread, librt
+Source: feeds/packages/libs/boost
+SourceName: boost-program_options
+License: BSL-1.0
+LicenseFiles: LICENSE_1_0.txt
+Section: libs
+CPE-ID: cpe:/a:boost:boost
+Maintainer: Carlos M. Ferreira <carlosmf.pt@gmail.com>
+Architecture: arm_cortex-a9
+Installed-Size: 68745
+Filename: boost-program_options_1.73.0-1_arm_cortex-a9.ipk
+Size: 69355
+SHA256sum: 8a20a75f97b38d153504a9b48c28d7b320d3a4f1893a4f58ccfecd391f955544
+Description:  This package contains the Boost program_options library.
+
+Package: boost-system
+Version: 1.73.0-1
+Depends: libc, libstdcpp6, libpthread, librt
+Source: feeds/packages/libs/boost
+SourceName: boost-system
+License: BSL-1.0
+LicenseFiles: LICENSE_1_0.txt
+Section: libs
+CPE-ID: cpe:/a:boost:boost
+Maintainer: Carlos M. Ferreira <carlosmf.pt@gmail.com>
+Architecture: arm_cortex-a9
+Installed-Size: 928
+Filename: boost-system_1.73.0-1_arm_cortex-a9.ipk
+Size: 1736
+SHA256sum: d7ffd7846e0ef80eee9b96fa54196c326553b3a340962d6e9cf6f76afd6d72ed
+Description:  This package contains the Boost system library.
+
+Package: boost
+Version: 1.73.0-1
+Depends: libc, libstdcpp6, libpthread, librt
+Source: feeds/packages/libs/boost
+SourceName: boost
+License: BSL-1.0
+LicenseFiles: LICENSE_1_0.txt
+Section: libs
+CPE-ID: cpe:/a:boost:boost
+Maintainer: Carlos M. Ferreira <carlosmf.pt@gmail.com>
+Architecture: arm_cortex-a9
+Installed-Size: 105
+Filename: boost_1.73.0-1_arm_cortex-a9.ipk
+Size: 1255
+SHA256sum: eaa309ec149a47e5d7ef087783763a38168d60861de79fd5ba46e6a5ef64f06e
+Description:  This package provides the Boost v1.73.0 libraries.
+ Boost is a set of free, peer-reviewed, portable C++ source libraries.
+ 
+ This package provides the following run-time libraries:
+ - atomic
+ - chrono
+ - container
+ - context
+ - contract
+ - coroutine and coroutine2 (Coroutine is deprecated - use Coroutine2)
+ - date_time
+ - exception
+ - filesystem
+ - fiber
+ - graph
+ - - graph-parallel
+ - iostreams
+ - locale (Requires kernel being compiled with full language support)
+ - log
+ - math
+ - program_options
+ - python3
+ - random
+ - regex
+ - serialization and wserialization
+ - stackstrace
+ - system
+ - thread
+ - timer
+ - type_erasure
+ - wave
+ 
+ There are many more header-only libraries supported by Boost.
+ See more at http://www.boost.org/doc/libs/1_72_0/
+
+Package: coreutils-base64
+Version: 8.32-1
+Depends: libc, coreutils
+Alternatives: 300:/bin/base64:/usr/bin/gnu-base64
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-base64
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a9
+Installed-Size: 19522
+Filename: coreutils-base64_8.32-1_arm_cortex-a9.ipk
+Size: 20362
+SHA256sum: c4ef8c923531d83bc24c5820ef05158829f551bdeb095a4b9760b20ce438a4fc
+Description:  Full version of standard GNU base64 utility.
+
+Package: coreutils
+Version: 8.32-1
+Depends: libc
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a9
+Installed-Size: 105
+Filename: coreutils_8.32-1_arm_cortex-a9.ipk
+Size: 974
+SHA256sum: e782881e77560b3c918006bbf4fda4ed96ea9b8725fbbc0d077c6d23c4ab6558
+Description:  Full versions of standard GNU utilities. If an equivalent Busybox applet is
+ available, you should consider compiling that instead as Busybox applets are
+ usually smaller, at the expense of reduced functionality.
+
+Package: dbus
+Version: 1.13.12-1
+Depends: libc, libexpat, libdbus
+Source: feeds/packages/utils/dbus
+SourceName: dbus
+License: AFL-2.1
+Section: utils
+CPE-ID: cpe:/a:freedesktop:dbus
+Architecture: arm_cortex-a9
+Installed-Size: 104957
+Filename: dbus_1.13.12-1_arm_cortex-a9.ipk
+Size: 105292
+SHA256sum: 86e8195662014a29e5c441c8df7d88a0d35615b3c7926af8c562a93bb3eea71b
+Description:  Simple interprocess messaging system (daemon)
+
+Package: ddns-scripts
+Version: 2.7.8-3
+Source: feeds/packages/net/ddns-scripts
+SourceName: ddns-scripts
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 14582
+Filename: ddns-scripts_2.7.8-3_all.ipk
+Size: 15647
+SHA256sum: ab4386267bb13174d480623f7e07e45d9854b225882fb308628f10371c81cd4e
+Description:  Dynamic DNS Client scripts (with IPv6 support) - Info: http://wiki.openwrt.org/doc/howto/ddns.client
+
+Package: hd-idle
+Version: 1.05-2
+Depends: libc
+Source: feeds/packages/utils/hd-idle
+SourceName: hd-idle
+License: GPL-2.0
+Section: utils
+Maintainer: Lim Guo Wei <limguowei@gmail.com>
+Architecture: arm_cortex-a9
+Installed-Size: 4540
+Filename: hd-idle_1.05-2_arm_cortex-a9.ipk
+Size: 5323
+SHA256sum: fde550fa4523333ad0c7520cb5ed8654d3035265cf8a91aaf271eeb614e0af84
+Description:  hd-idle is a utility program for spinning-down external disks after a period of idle time.
+
+Package: libattr
+Version: 2.4.48-2
+Depends: libc
+Source: feeds/packages/utils/attr
+SourceName: libattr
+License: LGPL-2.1-or-later
+LicenseFiles: doc/COPYING.LGPL
+Section: libs
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: arm_cortex-a9
+Installed-Size: 5801
+Filename: libattr_2.4.48-2_arm_cortex-a9.ipk
+Size: 6583
+SHA256sum: cb9f9b8f43ee4adbc2fbc5c7fba5346b8894f879da553405df453abed9fcd98a
+Description:  Extended attributes support
+ This package provides libattr
+
+Package: libavahi-client
+Version: 0.8-6
+Depends: libc, avahi-dbus-daemon
+Source: feeds/packages/libs/avahi
+SourceName: libavahi-client
+License: LGPL-2.1-or-later
+LicenseFiles: LICENSE
+Section: libs
+CPE-ID: cpe:/a:avahi:avahi
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: arm_cortex-a9
+Installed-Size: 16817
+Filename: libavahi-client_0.8-6_arm_cortex-a9.ipk
+Size: 17889
+SHA256sum: bb6b8c71ce8e6121aa0a05c40cf9d1dc2acba49832d1c9abae7f46933ba429f9
+Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
+ implementation (library). It facilitates
+ service discovery on a local network -- this means that
+ you can plug your laptop or computer into a network and
+ instantly be able to view other people who you can chat with,
+ find printers to print to or find files being shared.
+ This kind of technology is already found in MacOS X
+ (branded 'Rendezvous', 'Bonjour' and sometimes 'ZeroConf')
+ and is very convenient.
+ .
+ This packages adds the libavahi-client library.
+ It also automatically adds the required
+ libavahi-dbus-support and the avahi-dbus-daemon packages.
+ For more information please see the avahi documentation.
+
+Package: libavahi-dbus-support
+Version: 0.8-6
+Depends: libc, dbus
+Provides: libavahi
+Source: feeds/packages/libs/avahi
+SourceName: libavahi-dbus-support
+License: LGPL-2.1-or-later
+LicenseFiles: LICENSE
+Section: libs
+CPE-ID: cpe:/a:avahi:avahi
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: arm_cortex-a9
+Installed-Size: 67478
+Filename: libavahi-dbus-support_0.8-6_arm_cortex-a9.ipk
+Size: 68307
+SHA256sum: 6c38893f4988ee5aa690fd123140b5dcdc376197f3e61ef7ea4b118f3bef39d6
+Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
+ implementation (library). It facilitates
+ service discovery on a local network -- this means that
+ you can plug your laptop or computer into a network and
+ instantly be able to view other people who you can chat with,
+ find printers to print to or find files being shared.
+ This kind of technology is already found in MacOS X
+ (branded 'Rendezvous', 'Bonjour' and sometimes 'ZeroConf')
+ and is very convenient.
+ .
+ The libavahi package contains the mDNS/DNS-SD shared libraries,
+ used by other programs. Specifically, it provides
+ libavahi-core and libavahi-common libraries.
+ .
+ The libavahi-dbus-support package enables
+ D-Bus support in avahi, needed to support
+ the libavahi-client library and avahi-utils.
+ .
+ Selecting this package modifies the build configuration
+ so that avahi packages are built with support for D-BUS enabled;
+ it does not generate a separate binary of its own.
+ It also automatically adds the D-Bus package to the build.
+ libavahi-dbus-support is selected automatically if you select
+ libavahi-client or avahi-utils.
+
+Package: libcap
+Version: 2.36-1
+Depends: libc
+Source: feeds/packages/libs/libcap
+SourceName: libcap
+License: GPL-2.0-only
+LicenseFiles: License
+Section: libs
+Maintainer: Paul Wassi <p.wassi@gmx.at>
+Architecture: arm_cortex-a9
+Installed-Size: 9789
+Filename: libcap_2.36-1_arm_cortex-a9.ipk
+Size: 10489
+SHA256sum: 252d47b83dbb94a448152dfa6fdf43829cf3a8c6838e73fa3f8bd5720673692c
+Description:  Linux capabilities library library
+
+Package: libdaemon
+Version: 0.14-5
+Depends: libc
+Source: feeds/packages/libs/libdaemon
+SourceName: libdaemon
+Section: libs
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: arm_cortex-a9
+Installed-Size: 7759
+Filename: libdaemon_0.14-5_arm_cortex-a9.ipk
+Size: 8833
+SHA256sum: c47fe4466b1b56bd83f1f0c59039bf95710ecf93e016be12f54a2d76cdad4dd3
+Description:  libdaemon is a lightweight C library that eases the writing of UNIX daemons.
+ It consists of the following parts:
+ - A wrapper around fork() which does the correct daemonization procedure of a process
+ - A wrapper around syslog() for simpler and compatible log output to Syslog or STDERR
+ - An API for writing PID files
+ - An API for serializing UNIX signals into a pipe for usage with select() or poll()
+ - An API for running subprocesses with STDOUT and STDERR redirected to syslog
+ 
+ APIs like these are used in most daemon software available. It is not that
+ simple to get it done right and code duplication is not a goal.
+
+Package: libdbus
+Version: 1.13.12-1
+Depends: libc, libpthread
+Source: feeds/packages/utils/dbus
+SourceName: libdbus
+License: AFL-2.1
+Section: utils
+CPE-ID: cpe:/a:freedesktop:dbus
+Architecture: arm_cortex-a9
+Installed-Size: 109673
+Filename: libdbus_1.13.12-1_arm_cortex-a9.ipk
+Size: 109956
+SHA256sum: 3a11e3b90248c1f7f126fedcdb738420f40778aee74d153240be632e5fa0cc5f
+Description:  Simple interprocess messaging system (library)
+
+Package: libexif
+Version: 0.6.21-1
+Depends: libc
+Source: feeds/packages/libs/libexif
+SourceName: libexif
+License: LGPL-2.1
+LicenseFiles: COPYING
+Section: libs
+CPE-ID: cpe:/a:libexif:libexif
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: arm_cortex-a9
+Installed-Size: 63557
+Filename: libexif_0.6.21-1_arm_cortex-a9.ipk
+Size: 63754
+SHA256sum: add886e8e5d48ea3336e7321cc30b302643472c2569e6b1490156e7c28a94913
+Description:  libexif is a library for parsing, editing, and saving EXIF data. It is
+ intended to replace lots of redundant implementations in command-line
+ utilities and programs with GUIs.
+
+Package: libexpat
+Version: 2.2.9-1
+Depends: libc
+Source: feeds/packages/libs/expat
+SourceName: libexpat
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+CPE-ID: cpe:/a:libexpat:expat
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: arm_cortex-a9
+Installed-Size: 45145
+Filename: libexpat_2.2.9-1_arm_cortex-a9.ipk
+Size: 45853
+SHA256sum: 241ffad6cb8f4ca28d6ddec05b0cdfba90ba28a89175805ba1001a30943e1781
+Description:  A fast, non-validating, stream-oriented XML parsing library.
+
+Package: libffmpeg-audio-dec
+Version: 4.3-1
+Depends: libc, libpthread, libpthread, zlib, libbz2-1.0
+Provides: libffmpeg
+Source: feeds/packages/multimedia/ffmpeg
+SourceName: libffmpeg-audio-dec
+License: LGPL-2.1-or-later GPL-2.0-or-later LGPL-3.0-or-later
+LicenseFiles: COPYING.GPLv2 COPYING.GPLv3 COPYING.LGPLv2.1 COPYING.LGPLv3
+Section: libs
+CPE-ID: cpe:/a:ffmpeg:ffmpeg
+Maintainer: Ted Hess <thess@kitschensync.net>, Ian Leonard <antonlacon@gmail.com>
+Architecture: arm_cortex-a9
+Installed-Size: 791350
+Filename: libffmpeg-audio-dec_4.3-1_arm_cortex-a9.ipk
+Size: 789237
+SHA256sum: 858c01181358897ef94595c3d69f852682788d61d3e5bb938f402255d70bd230
+Description:  FFmpeg is a a software package that can record, convert and stream digital
+ audio and video in numerous formats.
+ 
+ FFmpeg licensing / patent issues are complex. It is the reponsibility of the
+ user to understand any requirements in this regard with its usage. See:
+ https://ffmpeg.org/legal.html for further information.
+ .
+ This package contains FFmpeg shared libraries for audio decoding
+
+Package: libflac
+Version: 1.3.3-1
+Depends: libc
+Source: feeds/packages/libs/flac
+SourceName: libflac
+License: GFDL-1.2 GPL-2 LGPL-2.1 BSD-3-Clause
+LicenseFiles: README COPYING.FDL COPYING.GPL COPYING.LGPL COPYING.Xiph
+Section: libs
+CPE-ID: cpe:/a:flac_project:flac
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: arm_cortex-a9
+Installed-Size: 73197
+Filename: libflac_1.3.3-1_arm_cortex-a9.ipk
+Size: 73727
+SHA256sum: b58c57e391d56ee1101d4a8722201420a59e83355408265b09b61b17005d0dc6
+Description:  Free Lossless Audio Codec library
+
+Package: libgnutls
+Version: 3.6.14-1
+Depends: libc, libnettle7, libgmp10, libatomic1
+Source: feeds/packages/libs/gnutls
+SourceName: libgnutls
+License: LGPL-2.1-or-later
+Section: libs
+CPE-ID: cpe:/a:gnu:gnutls
+Maintainer: Nikos Mavrogiannopoulos <nmav@gnutls.org>
+Architecture: arm_cortex-a9
+Installed-Size: 765282
+Filename: libgnutls_3.6.14-1_arm_cortex-a9.ipk
+Size: 762936
+SHA256sum: 5a3c93f44c27b366823417bffa52a27a6981241706e90a7f562a10448ec79b4f
+Description:  GnuTLS is a secure communications library implementing the SSL, TLS
+ and DTLS protocols and technologies around them. It provides a simple
+ C language application programming interface (API) to access the secure
+ communications protocols as well as APIs to parse and write X.509, PKCS12,
+ OpenPGP and other required structures. It is aimed to be portable and
+ efficient with focus on security and interoperability.
+ This package contains the GnuTLS shared library, needed by other programs.
+
+Package: libid3tag
+Version: 0.15.1b-4
+Depends: libc, zlib
+Source: feeds/packages/libs/libid3tag
+SourceName: libid3tag
+License: GPL-2
+LicenseFiles: COPYING
+Section: libs
+CPE-ID: cpe:/a:media-libs:libid3tag
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: arm_cortex-a9
+Installed-Size: 24775
+Filename: libid3tag_0.15.1b-4_arm_cortex-a9.ipk
+Size: 25450
+SHA256sum: 3e3bff4a87a536896bba406c31ca37998bd5f5fb891bedc48c7400c0d3401298
+Description:  libid3tag is a library for reading and (eventually) writing ID3 tags, both
+ ID3v1 and the various versions of ID3v2.
+
+Package: libjpeg-turbo
+Version: 2.0.5-1
+Depends: libc
+Provides: libjpeg
+Source: feeds/packages/libs/libjpeg-turbo
+SourceName: libjpeg-turbo
+License: BSD-3-Clause IJG zlib
+LicenseFiles: LICENSE.md
+Section: libs
+Maintainer: Rosen Penev <rosenp@gmail.com>
+Architecture: arm_cortex-a9
+Installed-Size: 83182
+Filename: libjpeg-turbo_2.0.5-1_arm_cortex-a9.ipk
+Size: 83898
+SHA256sum: a1f9ef6a7c645545ce4bd2a6368c99ccecd6734b62dd3b2f555329bdaec8a139
+Description:  libjpeg-turbo is a speed focused fork of libjpeg.
+
+Package: libogg0
+Version: 1.3.4-1
+Depends: libc
+Provides: libogg
+Source: feeds/packages/libs/libogg
+SourceName: libogg
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: arm_cortex-a9
+Installed-Size: 16198
+Filename: libogg0_1.3.4-1_arm_cortex-a9.ipk
+Size: 17082
+SHA256sum: 16b031fa60750ad14ca8085d82795c9b23e91008409860dcbeb0c880c7d102e1
+Description:  Ogg project codecs use the Ogg bitstream format to arrange the raw,
+ compressed bitstream into a more robust, useful form.  For example,
+ the Ogg bitstream makes seeking, time stamping and error recovery
+ possible, as well as mixing several sepearate, concurrent media
+ streams into a single physical bitstream.
+
+Package: libpam
+Version: 1.4.0-1
+Depends: libc
+Source: feeds/packages/libs/libpam
+SourceName: libpam
+License: BSD-3c GPL
+LicenseFiles: COPYING Copyright
+Section: libs
+CPE-ID: cpe:/a:kernel:linux-pam
+Maintainer: Nikos Mavrogiannopoulos <n.mavrogiannopoulos@gmail.com>
+Architecture: arm_cortex-a9
+Installed-Size: 168566
+Filename: libpam_1.4.0-1_arm_cortex-a9.ipk
+Size: 168565
+SHA256sum: b7233788c9a42c14ca46d5ff14c8e6c19e30ad16c72a875648ff67b823783603
+Description:  The Linux-PAM Pluggable Authentication Modules.
+
+Package: libsqlite3-0
+Version: 3320100-1
+Depends: libc, libpthread, zlib
+Provides: libsqlite3
+Source: feeds/packages/libs/sqlite3
+SourceName: libsqlite3
+License: PUBLICDOMAIN
+Section: libs
+CPE-ID: cpe:/a:sqlite:sqlite
+Maintainer: Sebastian Kemper <sebastian_ml@gmx.net>
+Architecture: arm_cortex-a9
+Installed-Size: 455877
+Filename: libsqlite3-0_3320100-1_arm_cortex-a9.ipk
+Size: 455762
+SHA256sum: 186bcf96126430daf175cbe033bfe5284caf214aa7395e04934bfca71c71d014
+Description:  SQLite is a small C library that implements a self-contained, embeddable,
+ zero-configuration SQL database engine.
+ This package contains the SQLite (v3.x) shared library, used by other
+ programs.
+
+Package: libtasn1
+Version: 4.16.0-1
+Depends: libc
+Source: feeds/packages/libs/libtasn1
+SourceName: libtasn1
+License: LGPL-2.1-or-later
+LicenseFiles: COPYING.LIB
+Section: libs
+CPE-ID: cpe:/a:gnu:libtasn1
+Maintainer: Nikos Mavrogiannopoulos <n.mavrogiannopoulos@gmail.com>
+Architecture: arm_cortex-a9
+Installed-Size: 29820
+Filename: libtasn1_4.16.0-1_arm_cortex-a9.ipk
+Size: 30691
+SHA256sum: 9eb538c6e6d575dd4f72e73b38e7eb57b4d3a9f133f47898688c32698639352e
+Description:  This is a library for Abstract Syntax Notation One (ASN.1) and
+ Distinguish Encoding Rules (DER) manipulation.
+
+Package: libtirpc
+Version: 1.2.6-2
+Depends: libc, libpthread
+Source: feeds/packages/libs/libtirpc
+SourceName: libtirpc
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Andy Walsh <andy.walsh44+github@gmail.com>
+Architecture: arm_cortex-a9
+Installed-Size: 57503
+Filename: libtirpc_1.2.6-2_arm_cortex-a9.ipk
+Size: 58085
+SHA256sum: 8f21c2a04e3c16e95dcfd912a98adc7f1b2639b13848003e2d790ba3e0233160
+Description:  Library TI RPC for RPC bindings
+
+Package: libvorbis
+Version: 1.3.6-1
+Depends: libc, libogg0
+Source: feeds/packages/libs/libvorbis
+SourceName: libvorbis
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: libs
+CPE-ID: cpe:/a:xiph.org:libvorbis
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: arm_cortex-a9
+Installed-Size: 185623
+Filename: libvorbis_1.3.6-1_arm_cortex-a9.ipk
+Size: 184159
+SHA256sum: 8036a22e0141607d3d7670c239312fa1272a8bf6ea2a25cbd215fe4dbe2012cb
+Description:  Vorbis is a general purpose audio and music encoding format
+ contemporary to MPEG-4's AAC and TwinVQ, the next generation beyond
+ MPEG audio layer 3. Unlike the MPEG sponsored formats (and other
+ proprietary formats such as RealAudio G2 and Windows' flavor of the
+ month), the Vorbis CODEC specification belongs to the public domain.
+ All the technical details are published and documented, and any
+ software entity may make full use of the format without license
+ fee, royalty or patent concerns.
+
+Package: minidlna
+Version: 2019-12-09-0763719f-7
+Depends: libc, libpthread, libexif, libjpeg, libsqlite3-0, libffmpeg, libid3tag, libflac, libvorbis, libuuid1
+Source: feeds/packages/multimedia/minidlna
+SourceName: minidlna
+License: GPL-2.0-or-later BSD-3-Clause
+LicenseFiles: COPYING LICENCE.miniupnpd
+Section: multimedia
+Require-User: minidlna:minidlna
+Architecture: arm_cortex-a9
+Installed-Size: 127128
+Filename: minidlna_2019-12-09-0763719f-7_arm_cortex-a9.ipk
+Size: 127674
+SHA256sum: 7582d736e8af990f2175cd22f57e163e69574b4086d059a7935019ebc8cbfea3
+Description:  MiniDLNA (aka ReadyDLNA) is server software with the aim of
+ being fully compliant with DLNA/UPnP-AV clients.
+
+Package: miniupnpd
+Version: 2.0.20170421-2
+Depends: libc, iptables, libip4tc2, libuuid1
+Source: feeds/packages/net/miniupnpd
+SourceName: miniupnpd
+License: BSD-3-Clause
+Section: net
+Maintainer: Markus Stenberg <fingon@iki.fi>
+Architecture: arm_cortex-a9
+Installed-Size: 53357
+Filename: miniupnpd_2.0.20170421-2_arm_cortex-a9.ipk
+Size: 54254
+SHA256sum: 485af1c6707f229e4dd5c44726b397318d15104ab59d999149058bb312504123
+Description:  Lightweight UPnP IGD, NAT-PMP & PCP daemon
+
+Package: smartdns
+Version: 1.2020.09.08-2235-1
+Depends: libc, libpthread, libopenssl1.1
+Source: feeds/packages/net/smartdns
+SourceName: smartdns
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+Maintainer: Nick Peng <pymumu@gmail.com>
+Architecture: arm_cortex-a9
+Installed-Size: 76962
+Filename: smartdns_1.2020.09.08-2235-1_arm_cortex-a9.ipk
+Size: 77792
+SHA256sum: 7881715eb8fed6e1f863972d64b170ae107efcb49325db892160473fe9a4d8ac
+Description:  SmartDNS is a local DNS server which accepts DNS query requests from local network clients,
+ gets DNS query results from multiple upstream DNS servers concurrently, and returns the fastest IP to clients.
+ Unlike dnsmasq's all-servers, smartdns returns the fastest IP. 
+
+Package: wsdd2
+Version: 2020-05-06-671d040c-8
+Depends: libc
+Source: feeds/packages/net/wsdd2
+SourceName: wsdd2
+License: GPL-3.0-only
+LicenseFiles: COPYING
+Section: net
+Maintainer: Andy Walsh <andy.walsh44+github@gmail.com>
+Architecture: arm_cortex-a9
+Installed-Size: 16221
+Filename: wsdd2_2020-05-06-671d040c-8_arm_cortex-a9.ipk
+Size: 17142
+SHA256sum: 3715e9268d4d66f70710b816fe1b1a80421717cbe9602266b392890a7360c4c1
+Description:  Web Services for Devices or Web Services on Devices (WSD),
+ is a Microsoft API to simplify programming connections to web service
+ enabled devices, such as printers, scanners and file shares.
+ 
+ This daemon advertises and responds to probe requests from Windows clients looking for file shares.
+ It also implements LLMNR multicast name lookup services.
+
